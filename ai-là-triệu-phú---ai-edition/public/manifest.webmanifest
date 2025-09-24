@@ -1,0 +1,57 @@
+{
+  "name": "Ai là Triệu Phú – AI Edition",
+  "short_name": "Triệu Phú AI",
+  "id": "./?pwa=ai-la-trieu-phu-ai-edition",
+  "lang": "vi-VN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "description": "Gameshow trắc nghiệm nhiều người chơi, câu hỏi do AI (Gemini) sinh, có mốc an toàn, trợ giúp và Daily Challenge.",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "categories": [
+    "games",
+    "education",
+    "trivia"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/any-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Chơi ngay",
+      "short_name": "Chơi",
+      "url": "./play"
+    },
+    {
+      "name": "Thử thách hôm nay",
+      "short_name": "Daily",
+      "url": "./daily"
+    }
+  ]
+}
